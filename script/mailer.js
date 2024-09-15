@@ -6,7 +6,7 @@ let fs = require("fs");
 //-----------------------------------------------
 
 //----------------------------------------------- variables global
-const dataFile = fs.readFileSync("./config/text.json");
+const dataFile = fs.readFileSync("script/config/text.json");
 var conf = JSON.parse(dataFile);
 username = conf.username;
 let path;
@@ -26,7 +26,7 @@ const rl = readline.createInterface({
 });
 
 async function pickRandomFile() {
-  var files = fs.readdirSync(`html`);
+  var files = fs.readdirSync(`script/html`);
   files = files.filter((fileName) => fileName);
   random_html = files[Math.floor(Math.random() * files.length)];
   path = "/html/" + random_html;
